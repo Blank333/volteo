@@ -1,0 +1,12 @@
+.crewCard {
+  width: 100%;
+}
+
+.crewLogo,
+.crewRankImage {
+  height: 34px;
+}
+
+.crewActivity > p {
+  color: #5d6f88;
+}

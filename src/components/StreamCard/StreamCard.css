@@ -1,0 +1,14 @@
+.streamCard {
+  padding: 1em 2em;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.streamCardContent {
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+
+.streamCardTime {
+  text-align: right;
+}

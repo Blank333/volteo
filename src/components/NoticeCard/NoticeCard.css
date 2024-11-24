@@ -1,0 +1,25 @@
+.noticeCard {
+  padding: 1em 2em;
+  background-color: #fffaec;
+  border-radius: 12px;
+}
+
+.noticeCardHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.noticeCardHeader > p {
+  color: #e95454;
+}
+
+.noticeCardContent {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.noticeCardFooter {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,44 @@
+.contentHeader {
+  height: 80px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+}
+
+.contentHeader > .info {
+  display: flex;
+  gap: 1em;
+}
+
+.contentHeader > .info > .crewInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentHeader > .actions {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.timezone {
+  border: 1px solid #b4b4bb;
+  border-radius: 10px;
+  padding: 0.8em 1.2em;
+}
+
+.logout {
+  width: 48px;
+  height: 48px;
+
+  padding: 1em;
+  background-color: var(--select-bgcolor);
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

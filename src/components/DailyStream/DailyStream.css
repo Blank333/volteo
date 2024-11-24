@@ -1,0 +1,19 @@
+.dailyStreamCard {
+  background-color: #ebf4ff;
+  border-radius: 12px;
+  width: 100%;
+  max-height: 88vh;
+  padding: 2em;
+  overflow: scroll;
+}
+
+.dailyStreamHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dailyStreamNotifications {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}

@@ -1,0 +1,8 @@
+.statusImage {
+  height: 45px;
+}
+
+.statusActivity {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,35 @@
+:root {
+  --width: 98px;
+  --height: 92px;
+  --radius: 8px;
+
+  --transition-time: 0.5s;
+
+  --icon-size: 2.5em;
+}
+
+.button {
+  width: var(--width);
+  height: var(--height);
+  border-radius: var(--radius);
+  transition: all var(--transition-time);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 0.5em;
+
+  padding: 0.5em;
+}
+
+.button:hover {
+  background-color: var(--select-bgcolor);
+  color: var(--select-color);
+  font-weight: var(--select-fontweight);
+}
+
+.icon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+}
